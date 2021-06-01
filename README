@@ -1,0 +1,8 @@
+# use the following code to install required packages for running the code
+# You can use a virtual environment if you want to.
+
+pip install -r requirement.txt
+
+# Use following code to test the model
+
+python main.py --viz = True
