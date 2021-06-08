@@ -19,8 +19,8 @@ from keras.optimizers import SGD
 
 from predict_class import classifier
 from tracker import tracker
-# custom data loader for the dataset  for taking sequence of 5 images
-# from generator import DataGenerator,get_sample_set,get_data_fixed
+# Custom data loader for the dataset  for taking sequence of 5 images
+# From generator import DataGenerator,get_sample_set,get_data_fixed
 from gen_consecutive import DataGenerator,get_sample_set,get_data_fixed
 
 class predict:
